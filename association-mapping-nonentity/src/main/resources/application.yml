@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: association-mapping-nonentity
+  datasource:    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password: root
+  jpa:
+    hibernate:      ddl-auto: update    show-sql: true
+    properties:      format-sql: true
